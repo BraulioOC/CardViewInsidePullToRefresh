@@ -64,7 +64,7 @@ namespace PruebaCarrucel
             }
         }
 
-        public ObservableCollection<object> Items { get; }
+        public ObservableCollection<object> Items { get; set; }
 
         private string CreateSource()
         {
@@ -103,19 +103,13 @@ namespace PruebaCarrucel
                 return;
 
             IsBusy = true;
-            Items.Clear();
+            Items.Add(new { Source = CreateSource(), Ind = _ImageCount++, Color = Color.Red });
+            Items.Add(new { Source = CreateSource(), Ind = _ImageCount++, Color = Color.Yellow });
+            Items.Add(new { Source = CreateSource(), Ind = _ImageCount++, Color = Color.LemonChiffon });
+            Items.Add(new { Source = CreateSource(), Ind = _ImageCount++, Color = Color.Honeydew });
 
-            Device.StartTimer(TimeSpan.FromSeconds(5), () =>
-            {
-
-                for (int i = 0; i < 100; i++)
-                    Items.Add(DateTime.Now.AddMinutes(i).ToString("F"));
-
-                IsBusy = false;
-
-                //page.DisplayAlert("Refreshed", "You just refreshed the page! Nice job!", "OK");
-                return false;
-            });
+            await Task.Delay(50);
+            IsBusy = false;
         }
 
     }
