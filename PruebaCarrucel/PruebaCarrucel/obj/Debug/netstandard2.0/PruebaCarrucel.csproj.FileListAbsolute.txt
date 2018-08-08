@@ -1,9 +1,0 @@
-c:\users\cvillegasa\source\repos\PruebaCarrucel\PruebaCarrucel\PruebaCarrucel\bin\Debug\netstandard2.0\PruebaCarrucel.deps.json
-c:\users\cvillegasa\source\repos\PruebaCarrucel\PruebaCarrucel\PruebaCarrucel\bin\Debug\netstandard2.0\PruebaCarrucel.dll
-c:\users\cvillegasa\source\repos\PruebaCarrucel\PruebaCarrucel\PruebaCarrucel\bin\Debug\netstandard2.0\PruebaCarrucel.pdb
-c:\users\cvillegasa\source\repos\PruebaCarrucel\PruebaCarrucel\PruebaCarrucel\obj\Debug\netstandard2.0\PruebaCarrucel.csproj.CoreCompileInputs.cache
-c:\users\cvillegasa\source\repos\PruebaCarrucel\PruebaCarrucel\PruebaCarrucel\obj\Debug\netstandard2.0\PruebaCarrucel.AssemblyInfoInputs.cache
-c:\users\cvillegasa\source\repos\PruebaCarrucel\PruebaCarrucel\PruebaCarrucel\obj\Debug\netstandard2.0\PruebaCarrucel.AssemblyInfo.cs
-c:\users\cvillegasa\source\repos\PruebaCarrucel\PruebaCarrucel\PruebaCarrucel\obj\Debug\netstandard2.0\PruebaCarrucel.dll
-c:\users\cvillegasa\source\repos\PruebaCarrucel\PruebaCarrucel\PruebaCarrucel\obj\Debug\netstandard2.0\PruebaCarrucel.pdb
-C:\Users\cvillegasa\source\repos\PruebaCarrucel\PruebaCarrucel\PruebaCarrucel\obj\Debug\netstandard2.0\PruebaCarrucel.csprojAssemblyReference.cache

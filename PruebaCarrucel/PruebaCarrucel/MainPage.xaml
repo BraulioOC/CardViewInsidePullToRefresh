@@ -10,12 +10,14 @@
           IsPullToRefreshEnabled="True"
           RefreshCommand="{Binding RefreshCommand}"
           IsRefreshing="{Binding IsBusy}"
-          RefreshColor="Blue"
-        >
+          RefreshColor="Blue">
+        <controls:ParentScrollView>
+                <StackLayout BackgroundColor="Gray">
         <cards:CarouselView 
+            IsPanInteractionEnabled="False"
     ItemsSource="{Binding Items}"
     SelectedIndex="{Binding CurrentIndex}">
-        <cards:CarouselView.ItemTemplate>
+                    <cards:CarouselView.ItemTemplate>
             <DataTemplate>
                 <ContentView>
                     <Frame 
@@ -38,5 +40,9 @@
 
         <controls:IndicatorsControl/>
     </cards:CarouselView>
+
+            </StackLayout>
+            
+        </controls:ParentScrollView>
     </controls2:PullToRefreshLayout>
 </ContentPage>

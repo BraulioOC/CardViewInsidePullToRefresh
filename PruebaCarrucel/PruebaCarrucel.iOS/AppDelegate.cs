@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using PanCardView.iOS;
+using Refractored.XamForms.PullToRefresh.iOS;
 using UIKit;
 
 namespace PruebaCarrucel.iOS
@@ -24,7 +26,8 @@ namespace PruebaCarrucel.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
-
+            PullToRefreshLayoutRenderer.Init();
+            CardsViewRenderer.Preserve();
             return base.FinishedLaunching(app, options);
         }
     }
