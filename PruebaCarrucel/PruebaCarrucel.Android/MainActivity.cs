@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using FFImageLoading.Forms.Droid;
+using Refractored.XamForms.PullToRefresh.Droid;
 
 namespace PruebaCarrucel.Droid
 {
@@ -19,7 +20,7 @@ namespace PruebaCarrucel.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
-
+            PullToRefreshLayoutRenderer.Init();
             CachedImageRenderer.Init(true);
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());

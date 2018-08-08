@@ -2,16 +2,18 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "CardsView/1.5.6": {
+      "CardsView/1.5.8-pre1": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "2.4.0"
         },
         "compile": {
-          "lib/Xamarin.iOS10/PanCardView.dll": {}
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/PanCardView.dll": {}
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
         }
       },
       "Refractored.XamForms.PullToRefresh/2.2.2": {
@@ -66,7 +68,7 @@
           "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
         }
       },
-      "Xamarin.Forms/3.0.0.446417": {
+      "Xamarin.Forms/2.5.0.77107": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -185,18 +187,18 @@
           }
         },
         "build": {
-          "build/netstandard2.0/Xamarin.Forms.props": {},
-          "build/netstandard2.0/Xamarin.Forms.targets": {}
+          "build/netstandard1.0/Xamarin.Forms.props": {},
+          "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
       "PruebaCarrucel/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "CardsView": "1.5.6",
+          "CardsView": "1.5.8-pre1",
           "Refractored.XamForms.PullToRefresh": "2.2.2",
           "Xamarin.FFImageLoading.Forms": "2.4.3.840",
-          "Xamarin.Forms": "3.0.0.446417"
+          "Xamarin.Forms": "2.5.0.77107"
         },
         "compile": {
           "bin/placeholder/PruebaCarrucel.dll": {}
@@ -207,16 +209,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "CardsView/1.5.6": {
+      "CardsView/1.5.8-pre1": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "2.4.0"
         },
         "compile": {
-          "lib/Xamarin.iOS10/PanCardView.dll": {}
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/PanCardView.dll": {}
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
         }
       },
       "Refractored.XamForms.PullToRefresh/2.2.2": {
@@ -271,7 +275,7 @@
           "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
         }
       },
-      "Xamarin.Forms/3.0.0.446417": {
+      "Xamarin.Forms/2.5.0.77107": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -390,18 +394,18 @@
           }
         },
         "build": {
-          "build/netstandard2.0/Xamarin.Forms.props": {},
-          "build/netstandard2.0/Xamarin.Forms.targets": {}
+          "build/netstandard1.0/Xamarin.Forms.props": {},
+          "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
       "PruebaCarrucel/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "CardsView": "1.5.6",
+          "CardsView": "1.5.8-pre1",
           "Refractored.XamForms.PullToRefresh": "2.2.2",
           "Xamarin.FFImageLoading.Forms": "2.4.3.840",
-          "Xamarin.Forms": "3.0.0.446417"
+          "Xamarin.Forms": "2.5.0.77107"
         },
         "compile": {
           "bin/placeholder/PruebaCarrucel.dll": {}
@@ -412,16 +416,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "CardsView/1.5.6": {
+      "CardsView/1.5.8-pre1": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "2.4.0"
         },
         "compile": {
-          "lib/Xamarin.iOS10/PanCardView.dll": {}
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/PanCardView.dll": {}
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
         }
       },
       "Refractored.XamForms.PullToRefresh/2.2.2": {
@@ -476,7 +482,7 @@
           "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
         }
       },
-      "Xamarin.Forms/3.0.0.446417": {
+      "Xamarin.Forms/2.5.0.77107": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -595,18 +601,18 @@
           }
         },
         "build": {
-          "build/netstandard2.0/Xamarin.Forms.props": {},
-          "build/netstandard2.0/Xamarin.Forms.targets": {}
+          "build/netstandard1.0/Xamarin.Forms.props": {},
+          "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
       "PruebaCarrucel/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "CardsView": "1.5.6",
+          "CardsView": "1.5.8-pre1",
           "Refractored.XamForms.PullToRefresh": "2.2.2",
           "Xamarin.FFImageLoading.Forms": "2.4.3.840",
-          "Xamarin.Forms": "3.0.0.446417"
+          "Xamarin.Forms": "2.5.0.77107"
         },
         "compile": {
           "bin/placeholder/PruebaCarrucel.dll": {}
@@ -617,16 +623,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "CardsView/1.5.6": {
+      "CardsView/1.5.8-pre1": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "2.4.0"
         },
         "compile": {
-          "lib/Xamarin.iOS10/PanCardView.dll": {}
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/PanCardView.dll": {}
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
         }
       },
       "Refractored.XamForms.PullToRefresh/2.2.2": {
@@ -681,7 +689,7 @@
           "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
         }
       },
-      "Xamarin.Forms/3.0.0.446417": {
+      "Xamarin.Forms/2.5.0.77107": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -800,18 +808,18 @@
           }
         },
         "build": {
-          "build/netstandard2.0/Xamarin.Forms.props": {},
-          "build/netstandard2.0/Xamarin.Forms.targets": {}
+          "build/netstandard1.0/Xamarin.Forms.props": {},
+          "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
       "PruebaCarrucel/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "CardsView": "1.5.6",
+          "CardsView": "1.5.8-pre1",
           "Refractored.XamForms.PullToRefresh": "2.2.2",
           "Xamarin.FFImageLoading.Forms": "2.4.3.840",
-          "Xamarin.Forms": "3.0.0.446417"
+          "Xamarin.Forms": "2.5.0.77107"
         },
         "compile": {
           "bin/placeholder/PruebaCarrucel.dll": {}
@@ -823,17 +831,19 @@
     }
   },
   "libraries": {
-    "CardsView/1.5.6": {
-      "sha512": "EkLcjEQhIArSJaiK51CYt6O30nVa9AVYpSWKEaNJxjTDcxvsOQLAkVKP+SwToLPaB5L84SMHdQMjOdnUVVbGKA==",
+    "CardsView/1.5.8-pre1": {
+      "sha512": "8ktH4gFt3dWLf4ocdTgXeoHBvsaVwuvaaJ2ONQQ0lsnPVILdSwSTz8Jel/O6ZV3GsUoXVNtuUv0WMqRtbSfrKw==",
       "type": "package",
-      "path": "cardsview/1.5.6",
+      "path": "cardsview/1.5.8-pre1",
       "files": [
-        "cardsview.1.5.6.nupkg.sha512",
+        "cardsview.1.5.8-pre1.nupkg.sha512",
         "cardsview.nuspec",
         "lib/MonoAndroid10/PanCardView.Droid.dll",
         "lib/MonoAndroid10/PanCardView.dll",
         "lib/Xamarin.Mac20/PanCardView.dll",
+        "lib/Xamarin.Mac20/PanCardView.iOS.dll",
         "lib/Xamarin.iOS10/PanCardView.dll",
+        "lib/Xamarin.iOS10/PanCardView.iOS.dll",
         "lib/netstandard1.0/PanCardView.dll",
         "lib/netstandard2.0/PanCardView.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/PanCardView.dll",
@@ -985,16 +995,15 @@
         "xamarin.ffimageloading.forms.nuspec"
       ]
     },
-    "Xamarin.Forms/3.0.0.446417": {
-      "sha512": "9Q6dING0FdSiOlsWUdNUzNiZgEljZ7rez5rn3+77+h0hfaFjSyV0tZQ1y2u2pXzRqgWNjDH3rrcCSoKgkMIxzA==",
+    "Xamarin.Forms/2.5.0.77107": {
+      "sha512": "jyoJ+VL8b2GSug0tP8ayyCGccnPR1qHS+vuAXIEAvxC4mlp+UqkW9+x3u0rixzkXhzb8rrenwNafAjSU620PUA==",
       "type": "package",
-      "path": "xamarin.forms/3.0.0.446417",
+      "path": "xamarin.forms/2.5.0.77107",
       "files": [
         "build/netstandard1.0/Mono.Cecil.Mdb.dll",
         "build/netstandard1.0/Mono.Cecil.Pdb.dll",
         "build/netstandard1.0/Mono.Cecil.Rocks.dll",
         "build/netstandard1.0/Mono.Cecil.dll",
-        "build/netstandard1.0/System.CodeDom.dll",
         "build/netstandard1.0/Xamarin.Forms.Build.Tasks.dll",
         "build/netstandard1.0/Xamarin.Forms.Core.dll",
         "build/netstandard1.0/Xamarin.Forms.DefaultItems.props",
@@ -1002,42 +1011,53 @@
         "build/netstandard1.0/Xamarin.Forms.Xaml.dll",
         "build/netstandard1.0/Xamarin.Forms.props",
         "build/netstandard1.0/Xamarin.Forms.targets",
-        "build/netstandard2.0/Mono.Cecil.Mdb.dll",
-        "build/netstandard2.0/Mono.Cecil.Pdb.dll",
-        "build/netstandard2.0/Mono.Cecil.Rocks.dll",
-        "build/netstandard2.0/Mono.Cecil.dll",
-        "build/netstandard2.0/System.CodeDom.dll",
-        "build/netstandard2.0/Xamarin.Forms.Build.Tasks.dll",
-        "build/netstandard2.0/Xamarin.Forms.Core.dll",
-        "build/netstandard2.0/Xamarin.Forms.DefaultItems.props",
-        "build/netstandard2.0/Xamarin.Forms.DefaultItems.targets",
-        "build/netstandard2.0/Xamarin.Forms.Xaml.dll",
-        "build/netstandard2.0/Xamarin.Forms.props",
-        "build/netstandard2.0/Xamarin.Forms.targets",
+        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.Mdb.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.Pdb.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.Rocks.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Build.Tasks.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.DefaultItems.targets",
+        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.targets",
+        "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
-        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.xml",
+        "lib/WP80/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/WP80/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/WP80/Xamarin.Forms.Core.dll",
+        "lib/WP80/Xamarin.Forms.Core.pdb",
+        "lib/WP80/Xamarin.Forms.Core.xml",
+        "lib/WP80/Xamarin.Forms.Platform.WP8.dll",
+        "lib/WP80/Xamarin.Forms.Platform.dll",
+        "lib/WP80/Xamarin.Forms.Xaml.dll",
+        "lib/WP80/Xamarin.Forms.Xaml.pdb",
+        "lib/WP80/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Platform.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Platform.macOS.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Xaml.dll",
+        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll.mdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.pdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.pdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll.mdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.pdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll",
@@ -1077,30 +1097,27 @@
         "lib/netstandard1.0/Design/Xamarin.Forms.Core.Design.dll",
         "lib/netstandard1.0/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/netstandard1.0/Xamarin.Forms.Core.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Core.dll.mdb",
         "lib/netstandard1.0/Xamarin.Forms.Core.pdb",
         "lib/netstandard1.0/Xamarin.Forms.Core.xml",
         "lib/netstandard1.0/Xamarin.Forms.Platform.dll",
         "lib/netstandard1.0/Xamarin.Forms.Xaml.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.dll.mdb",
         "lib/netstandard1.0/Xamarin.Forms.Xaml.pdb",
         "lib/netstandard1.0/Xamarin.Forms.Xaml.xml",
-        "lib/netstandard2.0/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/netstandard2.0/Design/Xamarin.Forms.Xaml.Design.dll",
-        "lib/netstandard2.0/Xamarin.Forms.Core.dll",
-        "lib/netstandard2.0/Xamarin.Forms.Core.pdb",
-        "lib/netstandard2.0/Xamarin.Forms.Core.xml",
-        "lib/netstandard2.0/Xamarin.Forms.Platform.dll",
-        "lib/netstandard2.0/Xamarin.Forms.Xaml.dll",
-        "lib/netstandard2.0/Xamarin.Forms.Xaml.pdb",
-        "lib/netstandard2.0/Xamarin.Forms.Xaml.xml",
-        "lib/tizen40/Xamarin.Forms.Core.dll",
-        "lib/tizen40/Xamarin.Forms.Core.pdb",
-        "lib/tizen40/Xamarin.Forms.Core.xml",
-        "lib/tizen40/Xamarin.Forms.Platform.Tizen.dll",
-        "lib/tizen40/Xamarin.Forms.Platform.Tizen.pdb",
-        "lib/tizen40/Xamarin.Forms.Platform.dll",
-        "lib/tizen40/Xamarin.Forms.Xaml.dll",
-        "lib/tizen40/Xamarin.Forms.Xaml.pdb",
-        "lib/tizen40/Xamarin.Forms.Xaml.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll.mdb",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll.mdb",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.xml",
+        "lib/uap10.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/uap10.0/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/uap10.0/Xamarin.Forms.Core.dll",
         "lib/uap10.0/Xamarin.Forms.Core.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll",
@@ -1108,7 +1125,6 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
@@ -1120,7 +1136,44 @@
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.0.0.446417.nupkg.sha512",
+        "lib/win81/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/win81/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/win81/Xamarin.Forms.Core.dll",
+        "lib/win81/Xamarin.Forms.Core.xml",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet.dll",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet.pri",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/FormsProgressBarStyle.xbf",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/FormsTextBoxStyle.xbf",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/Resources.xbf",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/TabletResources.xbf",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/Xamarin.Forms.Platform.WinRT.Tablet.xr.xml",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.dll",
+        "lib/win81/Xamarin.Forms.Platform.WinRT.pri",
+        "lib/win81/Xamarin.Forms.Platform.WinRT/StepperControl.xbf",
+        "lib/win81/Xamarin.Forms.Platform.WinRT/Xamarin.Forms.Platform.WinRT.xr.xml",
+        "lib/win81/Xamarin.Forms.Platform.dll",
+        "lib/win81/Xamarin.Forms.Xaml.dll",
+        "lib/win81/Xamarin.Forms.Xaml.xml",
+        "lib/wpa81/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/wpa81/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/wpa81/Xamarin.Forms.Core.dll",
+        "lib/wpa81/Xamarin.Forms.Core.xml",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone.dll",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone.pri",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/FormsProgressBarStyle.xbf",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/FormsTextBoxStyle.xbf",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/PhoneResources.xbf",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/Resources.xbf",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/SearchBox.xbf",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/Xamarin.Forms.Platform.WinRT.Phone.xr.xml",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.dll",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT.pri",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT/StepperControl.xbf",
+        "lib/wpa81/Xamarin.Forms.Platform.WinRT/Xamarin.Forms.Platform.WinRT.xr.xml",
+        "lib/wpa81/Xamarin.Forms.Platform.dll",
+        "lib/wpa81/Xamarin.Forms.Xaml.dll",
+        "lib/wpa81/Xamarin.Forms.Xaml.xml",
+        "xamarin.forms.2.5.0.77107.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -1132,28 +1185,28 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
-      "CardsView >= 1.5.6",
+      "CardsView >= 1.5.8-pre1",
       "PruebaCarrucel >= 1.0.0",
       "Refractored.XamForms.PullToRefresh >= 2.2.2",
       "Xamarin.FFImageLoading.Forms >= 2.4.3.840",
-      "Xamarin.Forms >= 3.0.0.446417"
+      "Xamarin.Forms >= 2.5.0.77107"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cvillegasa\\.nuget\\packages\\": {}
+    "C:\\Users\\bolan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cvillegasa\\source\\repos\\PruebaCarrucel\\PruebaCarrucel\\PruebaCarrucel.iOS\\PruebaCarrucel.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\bolan\\Desktop\\PruebaCarrucel\\PruebaCarrucel\\PruebaCarrucel.iOS\\PruebaCarrucel.iOS.csproj",
       "projectName": "PruebaCarrucel.iOS",
-      "projectPath": "C:\\Users\\cvillegasa\\source\\repos\\PruebaCarrucel\\PruebaCarrucel\\PruebaCarrucel.iOS\\PruebaCarrucel.iOS.csproj",
-      "packagesPath": "C:\\Users\\cvillegasa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cvillegasa\\source\\repos\\PruebaCarrucel\\PruebaCarrucel\\PruebaCarrucel.iOS\\obj\\",
+      "projectPath": "C:\\Users\\bolan\\Desktop\\PruebaCarrucel\\PruebaCarrucel\\PruebaCarrucel.iOS\\PruebaCarrucel.iOS.csproj",
+      "packagesPath": "C:\\Users\\bolan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bolan\\Desktop\\PruebaCarrucel\\PruebaCarrucel\\PruebaCarrucel.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\cvillegasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bolan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1161,15 +1214,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\TFS\\ERMX.MOB.COM.Rest": {},
-        "http://saedrmex01web62/ERMXNuget/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\cvillegasa\\source\\repos\\PruebaCarrucel\\PruebaCarrucel\\PruebaCarrucel\\PruebaCarrucel.csproj": {
-              "projectPath": "C:\\Users\\cvillegasa\\source\\repos\\PruebaCarrucel\\PruebaCarrucel\\PruebaCarrucel\\PruebaCarrucel.csproj"
+            "C:\\Users\\bolan\\Desktop\\PruebaCarrucel\\PruebaCarrucel\\PruebaCarrucel\\PruebaCarrucel.csproj": {
+              "projectPath": "C:\\Users\\bolan\\Desktop\\PruebaCarrucel\\PruebaCarrucel\\PruebaCarrucel\\PruebaCarrucel.csproj"
             }
           }
         }
@@ -1180,7 +1231,7 @@
         "dependencies": {
           "CardsView": {
             "target": "Package",
-            "version": "[1.5.6, )"
+            "version": "[1.5.8-pre1, )"
           },
           "Refractored.XamForms.PullToRefresh": {
             "target": "Package",
@@ -1192,7 +1243,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.0.0.446417, )"
+            "version": "[2.5.0.77107, )"
           }
         }
       }
